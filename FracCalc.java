@@ -1,9 +1,4 @@
 // BradyLi
-// Ensure the above line contains your name in the formation FirstNameLastName
-//
-// You can test your code by pressing the `Run` button.
-// Once you are happy with it, change the `ReadyForSubmission` line
-// to say `YES` and press the `Run` button again to submit
 // -----------------------------------------------------------------
 // ReadyForSubmission=no
 // Checkpoint = 4
@@ -27,20 +22,12 @@ public class FracCalc {
     } // loop of getting equations
 
   }
-
-  // ** IMPORTANT ** DO NOT DELETE THIS FUNCTION. This function will be used to
-  // test your code
-  // This function takes a String 'input' and produces the result
-  //
-  // input is a fraction string that needs to be evaluated. For your program, this
-  // will be the user input.
-  // e.g. input ==> "1/2 + 3/4"
-  //
+  
   // The function should return the result of the fraction after it has been
   // calculated
   // e.g. return ==> "1_1/4"
   public static String produceAnswer(String input) {
-    // TODO: Implement this function to produce the solution to the input
+    //produce the solution to the input
 
     if (!"quit".equals(input)) {
       int operand1n = input.indexOf(" ");
@@ -220,8 +207,5 @@ public class FracCalc {
 
     return "";
   }
-
-  // TODO: Fill in the space below with any helper methods that you think you will
-  // need
 
 }
