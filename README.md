@@ -13,11 +13,6 @@
  
 The objective of this assignment is to create a calculator to compute arithmetic operations between integers and/or fractions and output the result as a reduced mixed fraction.
  
-This document contains:
-- Specifications (exactly how the calculator should behave)
-- Examples (specific examples of how the calculator behaves)
-- Organization (requirements for how your code be structured)
-- Checkpoints (three interim stages to lead up to a totally functional calculator)
  
 # Specifications
  
